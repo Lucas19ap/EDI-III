@@ -1,0 +1,68 @@
+article{
+  display:inline-block;
+  width:190px;
+}
+
+article img{
+    width:180px;
+    height:120px;
+}
+
+section{
+  background:#f1f1f1;
+
+}
+#boton{
+  background:#167ac6;
+  color:white;
+  font:bold 13px roboto, sans-serif;
+  border:0px;
+  
+}
+#buscador{
+  font-size:13px;
+  font-family:Roboto;
+  width:570px;
+  border:1px solid #cccccc;
+}
+#title{
+  font: bold 14px roboto , sans-serif;
+  color:#cc181e;
+}
+a{
+  text-decoration:none;
+}
+nav{
+  width: 200px;
+}
+
+nav li{
+  list-style:none;
+}
+
+nav li h4{
+  font-size:13px;
+  font-family:roboto;
+  color:#222;
+  text-decoration:none;
+}
+
+nav li h4:hover{
+  font-size:13px;
+  font-family:roboto;
+  color:#fff;
+  text-decoration:none;
+  list-style:none;
+  background:#222;
+}
+
+.opcionSeleccionada{
+    background:#cc181e;
+    color:#fff;
+}
+  
+
+article a{
+  font:bold 15px roboto, sans-serif;
+  
+}

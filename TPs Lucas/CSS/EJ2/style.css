@@ -1,0 +1,34 @@
+header{
+  background:#4abdac;
+}
+body{
+  color:#ffffff;
+  background:#fc4a1a;
+  font-size:1em;
+  font-weight:bold;
+  font-family:verdana;
+  text-align:justify;
+  margin: 0px 1em 1em 1em;
+}
+footer{
+  background:#f7b733;
+  margin: 0px 1em 0px 0px;
+}
+h1{
+  font-size:2.5em;
+  font-weight:bold;
+  font-family:verdana;
+  text-align:center;
+  margin:0.5em 0px 0.5em 0px;
+}
+h3{
+  font-size:1.5em;
+  font-weight:bold;
+  font-family:verdana;
+  text-align:center;
+  margin:0.5em;
+}
+figure{
+  margin: 0px 1em 1em 1em;
+  width:300px;
+}
