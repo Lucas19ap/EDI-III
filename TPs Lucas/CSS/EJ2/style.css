@@ -11,6 +11,7 @@ body{
   margin: 0px 1em 1em 1em;
 }
 footer{
+  clear: both;
   background:#f7b733;
   margin: 0px 1em 0px 0px;
 }
@@ -21,14 +22,19 @@ h1{
   text-align:center;
   margin:0.5em 0px 0.5em 0px;
 }
-h3{
-  font-size:1.5em;
-  font-weight:bold;
-  font-family:verdana;
-  text-align:center;
-  margin:0.5em;
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: verdana;
+    text-align: center;
+    /*El margen tiene que ser de 0.25*/
+    /*margin:0.5em;*/
+    margin: 0.25em;
 }
-figure{
+/*No existe tag figure en el HTML*/
+/*figure{*/
+img{
+  float: left;
   margin: 0px 1em 1em 1em;
   width:300px;
 }

@@ -11,6 +11,10 @@ nav li{
   padding:0px 0.5em 1em 1em;
 }
 
+nav ul {
+    margin-top: 0em
+}
+
 
 nav li:hover{
  font-size:13px;
@@ -63,10 +67,17 @@ p{
 li a:hover{
   text-decoration: underline;
 }
-header{
-  padding:0.5em 0.25em;
+header {
+    background: #fafafa;
+    padding:0.5em 0.25em;
 }
 
 article{
   margin:1em 0px 1em 8em;
+}
+
+nav li.seleccionado{
+    font-weight: bold;
+    color: #4285f4;
+    border-bottom: 3px solid #4285f4;
 }

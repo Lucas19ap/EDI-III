@@ -5,30 +5,36 @@ nav{
   font-family:arial;
   padding:1.5em;
 }
-nav li:hover{
- background:#141414;
+nav ul {
+    display:inline-block
+}
+nav li:hover {
+    background: #141414;
+    color:#ffffff;
 }
 li{
-  background:#57b157;
+  /*background:#57b157;*/
   font-size:16px;
   font-family:Arial;
-  color:#ffffff;
+  /*color:#ffffff;*/
   margin:0px 0.5em 0px 0.5em;
   padding:0.5em;
   list-style:none;
   display:inline-block;
 }
-section article{
+.principal article{
   padding:1em 2em 1em 2em;
   background:#eeeeee;
 }
 footer{
-  background:#eeeeee;
+    border-top: 2px solid #eeeeee;
+    padding: 1em 2em;
 }
-header{
+nav header{
   font-size:16px; 
   font-family:arial;
   color:#868686;
+  display:inline-block;
 }
 h1{
   font-size:42px;
@@ -57,6 +63,16 @@ section article header{
 aside article{
   padding:1em 2em 1em 2em;
 }
-article{
-  display:inline-block;
+.secundaria article {
+    display: inline-block;
+    width: 33%;
+}
+
+input {
+    background-color: #57b157;
+    border: none;
+    font: 16px Arial;
+    color: #ffffff;
+    margin: 0.5em 0em;
+    padding: 0.5em;
 }
